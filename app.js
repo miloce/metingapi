@@ -21,8 +21,15 @@ app.get('/', (c) => {
                         </head>
                         <body>
                             <h1>Meting API</h1>
+                            <p>
+                                <a href="https://github.com/miloce/metingapi" style="text-decoration: none;">
+                                    <img alt="Static Badge" src="https://img.shields.io/badge/Github-Meting-green">
+                                    <img alt="GitHub forks" src="https://img.shields.io/github/forks/miloce/metingapi">
+                                    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/miloce/metingapi">
+                                </a>
+                            </p>
 
-                            <p>当前版本：1.0.8</p>
+                            <p>当前版本：1.1.2</p>
                             <p>当前运行环境：${get_runtime()}</p>
                             <p>当前时间：${new Date()}</p>
                             <p>内部端口：${config.PORT}</p>
